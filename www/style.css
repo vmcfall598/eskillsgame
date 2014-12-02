@@ -1,0 +1,41 @@
+.blk {width:50px;height:50px;overflow:hidden;}
+.card {
+margin:5px;
+padding:5px;
+width:40px;
+height:40px;
+border:solid 1px #f00;
+font:bold 3em verdana,arial,sans-serif;
+}
+.back {background:#ffd;cursor:pointer;}
+.cf1  {background:#ff0;color:#ffff00;}
+.cf2  {background:#f9f;color:#ffff00;}
+.cf3  {background:#0cf;color:#cc0000;}
+.ui-btn {width: 9em; margin:auto !important;}
+.count {
+margin:auto;
+margin-bottom:10px !important;
+margin-top:10px !important;
+width:75px;
+border-bottom-left-radius: 4px 4px;
+border-bottom-right-radius: 4px 4px;
+border-top-left-radius: 4px 4px;
+border-top-right-radius: 4px 4px;
+border: 4px solid #f78803;
+float: none;
+padding: 0px 8px;
+font-size:20px;
+}
+.memo { 
+margin-top:5% !important;
+width:100%;
+height:100%;
+padding-bottom:10px;
+}
+[data-role=page]{height: 100% !important; position:relative !important;}
+[data-role=footer]{bottom:0; position:absolute !important; top: auto !important; width:100%;}
+
+.brain {
+text-align:center;
+margin-top:100px;
+}

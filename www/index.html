@@ -1,0 +1,40 @@
+<html>
+	<head>
+	<title>eskillsgame</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="jquery.mobile.css" rel="stylesheet" type="text/css" />
+	<script src="jquery-1.6.4.min.js" charset="utf-8"></script>
+	<script src="jquery.mobile.js" charset="utf-8"></script>
+	<script src="jquery.stopwatch.js" charset="utf-8"></script>
+	</head>
+		<body>
+			<div data-role="page" id="page1">
+				<div data-role="header"  data-theme="e" data-content-theme="e">
+					<h1>eskillsgame</h1>
+				</div>
+				<div data-role="content">
+					<div class="brain"><img src="images/back.png" height="200" width="200"/></div>
+					<p><a href="#page2" id="reset" data-role="button" data-theme="e">Start!</a></p>
+				</div>
+				<div data-role="footer"  data-theme="e" data-content-theme="e">
+					<h4>Developed by </h4>
+				</div>
+			</div>
+			<div data-role="page" id="page2">
+				<div data-role="header"  data-theme="e" data-content-theme="e">
+					<h1>eskillsgame</h1>
+				</div>
+				<div data-role="content">
+					<div class="memo">
+						<div id="memory"></div>
+							<div id="counter" class="count">00:00:00</div>
+							<button id="reset" data-role="button" data-theme="e">New game</button>
+							<script type="text/javascript" src="memore.js"></script>
+					</div>
+				</div>
+				<div data-role="footer"  data-theme="e" data-content-theme="e">
+					<h4>Developed by </h4>
+				</div>
+			</div>
+		</body>
+</html>
